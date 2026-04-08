@@ -1,0 +1,15 @@
+spec_version: 1
+
+name: sql_env
+description: SQL Query Optimization Environment for RL agents
+version: 0.1.0
+
+type: space
+runtime: fastapi
+entrypoint: server.app:app
+port: 8000
+
+tasks:
+  - easy
+  - medium
+  - hard
