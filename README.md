@@ -1,17 +1,11 @@
-<<<<<<< HEAD
-# openenv-rl-challenge
-=======
 ---
-title: Sql Env Environment Server
-emoji: 🎥
-colorFrom: pink
-colorTo: red
+title: openenve-rl-challenge
+emoji: 🤖
+colorFrom: blue
+colorTo: green
 sdk: docker
+app_file: app.py
 pinned: false
-app_port: 8000
-base_path: /web
-tags:
-  - openenv
 ---
 
 # Sql Env Environment
@@ -256,4 +250,3 @@ sql_env/
     ├── app.py             # FastAPI application (HTTP + WebSocket endpoints)
     └── Dockerfile         # Container image definition
 ```
->>>>>>> 089b433 (Initial commit)
